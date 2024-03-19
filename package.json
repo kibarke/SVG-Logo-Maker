@@ -1,0 +1,25 @@
+{
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kibarke/SVG-Logo-Maker.git"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "author": "Kirsten Barke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kibarke/SVG-Logo-Maker/issues"
+  },
+  "homepage": "https://github.com/kibarke/SVG-Logo-Maker#readme"
+}
