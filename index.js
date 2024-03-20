@@ -19,8 +19,7 @@ class Svg{
     setShapeElement(shape){
         this.shapeElement = shape.render()
 
-    }
-    
+	}
 }
 
 // Defines array of 'questions' using the 'inquirer' library with the following questions.
