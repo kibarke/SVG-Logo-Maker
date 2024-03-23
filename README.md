@@ -129,6 +129,3 @@ Follow me on Github at [KirstenBarke](https://github.com/Kibarke)! Additional qu
 See you soon!
 
 © 2024 [KirstenBarke](https://github.com/Kibarke). Confidential and Proprietary. All Rights Reserved.
-
-
-![](./examples/circle1.svg)
