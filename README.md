@@ -131,4 +131,4 @@ Follow me on Github at [KirstenBarke](https://github.com/Kibarke)! Additional qu
 
 ### Help
 
-Thomas Calle - `https://github.com/ThomasCalle/Thomas-Object-Oriented-Programming-SVG-Logo-Maker`
+[Thomas Calle](https://github.com/ThomasCalle/Thomas-Object-Oriented-Programming-SVG-Logo-Maker) - `https://github.com/ThomasCalle/Thomas-Object-Oriented-Programming-SVG-Logo-Maker`
