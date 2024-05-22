@@ -6,25 +6,25 @@ const {Circle, Square, Triangle} = require("./lib/shapes");
 
 class Svg{
     constructor(){
-        this.textElement = ''
-        this.shapeElement = ''
+        this.textComponent = ''
+        this.shapeComponent = ''
     }
     render(){
 
-        return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="200">${this.shapeElement}${this.textElement}</svg>`
+        return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="200">${this.shapeComponent}${this.textComponent}</svg>`
     }
     setTextElement(text,color){
-        this.textElement = `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${color}">${text}</text>`
+        this.textComponent = `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${color}">${text}</text>`
     }
     setShapeElement(shape){
-        this.shapeElement = shape.render()
+        this.shapeComponent = shape.render()
 
 	}
 }
 
 // Defines array of 'questions' using the 'inquirer' library with the following questions.
 // Each question is an object that specifies the properties of TEXT, TEXT COLOR, SHAPE COLOR, and Pixel Image.
-const questions = [
+const query = [
     {
         type: "input",
         name: "text",
@@ -65,7 +65,7 @@ async function init() {
 	var svg_file = "logo.svg";
 
     // Prompt the user for answers
-    const answers = await inquirer.prompt(questions);
+    const answers = await inquirer.prompt(query);
 
 	//user text
 	var user_text = "";
@@ -109,8 +109,8 @@ async function init() {
 
 	// Create a new Svg instance and add the shape and text elements to it
 	var svg = new Svg();
-	svg.setTextElement(user_text, user_font_color);
-	svg.setShapeElement(user_shape);
+	svg.setTextComponent(user_text, user_font_color);
+	svg.setShapeComponent(user_shape);
 	svgString = svg.render();
 	
 	//Print shape to log
