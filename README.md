@@ -126,6 +126,9 @@ SOFTWARE.
 
 Follow me on Github at [KirstenBarke](https://github.com/Kibarke)! Additional questions or concerns? feel free to contact me at kibarkework@gmail.com
 
-See you soon!
 
 © 2024 [KirstenBarke](https://github.com/Kibarke). Confidential and Proprietary. All Rights Reserved.
+
+### Help
+
+Thomas Calle - `https://github.com/ThomasCalle/Thomas-Object-Oriented-Programming-SVG-Logo-Maker`
