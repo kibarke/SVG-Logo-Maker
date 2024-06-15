@@ -1,6 +1,10 @@
 # Kirsten's Object Oriented Programming SVG LOGO MAKER
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Final Product
+
+![Final](logo.svg)
   
 ## Description:
 The application enables users to enter inputs into a inquirer prompt in order to generate a logo "logo.svg" file which contains the users desired results as an SVG image.
