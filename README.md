@@ -71,6 +71,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ![](./images/jest-test.png)
 ### Figure 3. Generated "logo.svg" file
 ![](./images/kts.svg.png)
+- I have no idea why the image does not show
 
 ## Installation Process
 1. Clone the repository: [Thomas' Object Oriented Programming SVG Logo Maker](https://github.com/kibarke/SVG-Logo-Maker)
